@@ -1,0 +1,107 @@
+/*--PC,Phone both --*/
+
+* {
+  box-sizing: border-box;
+  color: #000000;
+  font-family: "Noto Sans Japanese", sans-serif;
+  color: black;
+  background-color: #ffffff;
+}
+
+/*--PC style--*/
+
+/*--HEADER--*/
+
+.header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin: 20px auto;
+}
+
+.header h1 {
+  font-size: 34px;
+  border: 1px;
+  border-style: solid;
+}
+.header > h1 > a {
+  text-decoration: none;
+}
+#nav-pc {
+  font-size: 34px;
+  left: 0;
+  margin: 32px 16px 32px;
+  text-align: center;
+}
+#nav-pc > a {
+  font-weight: bold;
+  text-decoration: none;
+}
+/*--MAIN VISUAL--*/
+#main-visual > img {
+  width: 100%;
+  margin: 20px 0;
+}
+/*--ABOUT --*/
+#about {
+  width: 820px;
+  height: 402px;
+  margin: 40px auto;
+}
+h2 {
+  font-size: 34px;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+#about-inner {
+  display: flex;
+  justify-content: center;
+  margin-top: 73px;
+}
+.face {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  margin-left: 121px;
+}
+.introduction > h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 4px 0;
+}
+.introduction > li {
+  font-size: 18px;
+}
+/*--WORKS--*/
+#works {
+  margin: 80px auto;
+  max-width: 752px;
+}
+#works-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.about-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-work > p {
+  font-size: 18px;
+  align-items: center;
+  width: 240px;
+}
+.works-photo {
+  width: 240px;
+}
+
+/*--FOOTER--*/
+footer > p {
+  text-align: center;
+  margin: 20px 40px 20px 40px;
+}
